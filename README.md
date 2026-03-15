@@ -20,3 +20,21 @@ Composer (N-aire) : Lie PIZZA et INGREDIENT. L'attribut QTE_RECETTE se place ici
 Fournir : Lie FOURNISSEUR et INGREDIENT.
 
 Contenir : Lie COMMANDE_FOURNISSEUR et INGREDIENT pour savoir quel produit est dans quelle commande.
+
+
+
+
+(étape 5) : 
+
+
+Scénario d'utilisation 
+Rôle : Le gérant de la pizzeria
+Le gérant est la personne responsable de la gestion quotidienne de la pizzeria. Il supervise les stocks d'ingrédients, passe les commandes auprès des fournisseurs, gère la carte des pizzas et s'assure que la production peut se faire sans rupture de stock.
+Contexte d'utilisation
+Chaque semaine, le gérant consulte la base de données pour :
+
+Surveiller les stocks : il vérifie quels ingrédients sont en dessous du seuil minimum pour anticiper les ruptures et passer des commandes à temps.
+Gérer les fournisseurs : il analyse les dépenses par fournisseur, vérifie quels fournisseurs ont des commandes en cours, et identifie les fournisseurs les plus sollicités.
+Suivre les commandes : il consulte l'état des commandes passées (reçues, en cours) et vérifie les lots réceptionnés ainsi que leurs dates de péremption.
+Analyser la carte : il consulte la composition des pizzas, compare les prix, et identifie les pizzas les plus ou moins chères pour ajuster sa carte si nécessaire.
+Optimiser les achats : il calcule les montants totaux commandés par fournisseur pour négocier de meilleurs tarifs et identifier les ingrédients jamais commandés ou jamais utilisés.
